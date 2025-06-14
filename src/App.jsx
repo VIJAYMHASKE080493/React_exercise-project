@@ -6,6 +6,8 @@ import UserCard from "./components/UserCard";
 import TodoList from './components/Todo';
 import ProductCard from './components/Productcard';
 import Profile from './components/Profile';
+import TemperatureConverter from './components/TemperatureConverter';
+import ParentComponent from './components/ParentComponent';
 
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
       {/* <TodoList /> */}
       {/* <UserCard /> */}
       {/* <h1>Product List</h1> */}
+      {/* <h1>Temperature Converter</h1>
+      <TemperatureConverter /> */}
+      <h1>Sum of Two Numbers</h1>
+      <ParentComponent />
       {/* <ProductCard
         name="Laptop" 
         price={49999}
