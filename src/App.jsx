@@ -8,6 +8,9 @@ import ProductCard from './components/Productcard';
 import Profile from './components/Profile';
 import TemperatureConverter from './components/TemperatureConverter';
 import ParentComponent from './components/ParentComponent';
+import LoginForm from './components/LoginForm';
+import Timer from './components/Timer';
+import Counter2 from './components/Counter2';
 
 
 function App() {
@@ -20,8 +23,8 @@ function App() {
       {/* <h1>Product List</h1> */}
       {/* <h1>Temperature Converter</h1>
       <TemperatureConverter /> */}
-      <h1>Sum of Two Numbers</h1>
-      <ParentComponent />
+      {/* <h1>Sum of Two Numbers</h1>
+      <ParentComponent /> */}
       {/* <ProductCard
         name="Laptop" 
         price={49999}
@@ -30,6 +33,11 @@ function App() {
       {/* <h1>User Profiles</h1>
       <Profile username="Vijay" />
       <Profile /> Will show "Guest" by default */}
+      {/* <LoginForm /> */}
+      <Counter2 />
+      <Timer />
+
+
     </div>
   );
 }
